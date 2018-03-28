@@ -1,17 +1,46 @@
 <!DOCTYPE html>
-<html>
 <head>
 <meta charset="utf-8">
 <title>履歷表</title>
 <style>
+ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+    overflow:hidden;
+    background-color: black
+}
+li
+{ 
+    float:left;
+} 
+li a
+{
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+li a:hover:not(.active) 
+{
+    background-color:brown;
+}
+
+.active 
+{
+    background-color:red ;
+}   
 body
 {
     background-color:cornsilk;
 }    
  .center
- {
+{
      text-align:center;
- }  
+}  
 table,td,th
 {
     border:1px solid black;
@@ -31,7 +60,12 @@ table
 </style>
 </head>
 <body>
-        <div class="center">
+    <ul>
+        <li><a href="#home">首頁</a></li>
+        <li><a href="#education">學歷</a></li>
+        <li><a href="#interest">興趣</a></li>
+    </ul>    
+    <div class="center">
          <img src="89.jpg"alt="89" width="300" height="300">
          <h1>陳佳妮</h1>
     </div>
@@ -60,6 +94,6 @@ table
             <td>Facebook</td>
             <td><a href="https://www.facebook.com/profile.php?id=100004014743290">https://www.facebook.com/profile.php?id=100004014743290</a></td>
         </tr>
-        </table>
+        </table>   
 </body>
 </html>
