@@ -3,11 +3,16 @@
 <meta charset="utf-8">
 <title>履歷表</title>
 <style>  
-h2
+div.one
 {
-    color:black;
-    text-align:left;
+    width: 400px;
+    border:hidden;
+    padding: 20px;
+    margin: auto;
+    text-align:center;
     font-size:85px;
+    font-style:oblique;
+    font-weight:bolder;
 }   
 ul
 {
@@ -26,7 +31,7 @@ li a
     display:block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 228px;
     text-decoration: none;
     
 }
@@ -39,20 +44,23 @@ li a:hover:not(.active)
 {
     background-color:red ;
 }
-h1 
+h2 
 {
+    font-size:50px;
+    font-style:normal;
+    font-weight:bolder;
     text-align:center;
 }  
-div 
+div.two 
 {
     width: 300px;
-    border: 1ch solid cornsilk;
-    padding: 1px;
+    border: hidden;
+    padding: 10px;
     margin: auto;
 }
 body
 {
-    background-color:cornsilk;
+    background-image:url('112.jpg');
 }    
  .center
 {
@@ -77,16 +85,16 @@ table
 </style>
 </head>
 <body>
-    <h2>我的網站</h2>
+    <div class="one">我的網頁</div>
     <ul>
-        <li><a href="#home">首頁</a></li>
-        <li><a href="#education">學歷</a></li>
+        <li><a href="https://cdn.rawgit.com/z002020821/wd106b/72d44fdf/exercise/598.html">首頁</a></li>
+        <li><a href="#education">求學經歷</a></li>
         <li><a href="#interest">興趣</a></li>
     </ul>    
-    <div class="center">
+    <div class="two">
          <img src="89.jpg"alt="89" width="300" height="300"> 
     </div>
-    <h1>陳佳妮</h1>
+    <h2>陳佳妮</h2>
     <table border="2">
         <tr>
             <th>內容</th>
@@ -110,7 +118,7 @@ table
         </tr>
         <tr>
             <td>Facebook</td>
-            <td><a href="https://www.facebook.com/profile.php?id=100004014743290">https://www.facebook.com/profile.php?id=100004014743290</a></td>
+            <td><a href="https://www.facebook.com/profile.php?id=100004014743290" target="_blank">https://www.facebook.com/profile.php?id=100004014743290</a></td>
         </tr>
         </table>   
 </body>
